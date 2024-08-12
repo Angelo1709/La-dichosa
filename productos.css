@@ -89,12 +89,17 @@ header {
     background-image: url(/imagenes/semillas.png);
     background-position: center;
     background-size: cover;
+    border-width: 1px;
+    border-color: black;
+    
 }
 
 .agroquimicos {
     background-image: url(/imagenes/agroquimico.webp);
     background-position: center;
     background-size: cover;
+    border-width: 1px;
+    border-color: black;
 }
 
 
