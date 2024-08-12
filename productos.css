@@ -14,7 +14,13 @@ justify-content: center;
     background-color: black;
 }
 
-
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
 
 /*copiado header*/
 
@@ -67,4 +73,99 @@ header {
 
 .menu ul li a:hover {
     text-decoration: underline;
+}
+
+.agrosemillas button{
+
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    margin-top: 50px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.semillas{
+    background-image: url(/imagenes/semillas.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.agroquimicos {
+    background-image: url(/imagenes/agroquimico.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .agrosemillas button{
+
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+        margin-top: 40px;
+        border-radius: 10%;
+        cursor: pointer;
+    }
+
+    header{
+
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    }
+
+   
+
+    .menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .mapa-container iframe,
+    .mapa-container-santa iframe {
+        height: 250px;
+    }
+
+    body{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .sucursales h3{
+        margin: 0px;
+    }
+    
+    .menu ul {
+        
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        width: 120px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+    }
+
+    
 }
