@@ -31,6 +31,7 @@ body {
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed;
 }
 
 .linea{
