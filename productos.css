@@ -134,7 +134,7 @@ header {
     }
 
     .logo img {
-        width: 120px;
+        width: 90px;
     }
 
     .info h2 {
@@ -171,7 +171,7 @@ header {
     }
 
     .logo img {
-        width: 120px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+        width: 90px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
     }
 
     

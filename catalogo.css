@@ -96,7 +96,7 @@ header {
 }
 
 .logo img {
-    width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+    width: 90px; /* Ajusta el tamaño del logo según tus necesidades */
     height: auto;
 }
 
@@ -147,7 +147,7 @@ header {
     }
 
     .logo img {
-        width: 120px;
+        width: 90px;
     }
 
     .info h2 {

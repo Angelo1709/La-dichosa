@@ -122,6 +122,16 @@ header {
 }
 
 
+.recuadro {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #db3434;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+    margin: 0px 110px;
+}
 
 
 
@@ -171,7 +181,7 @@ header {
     }
 
     .logo img {
-        width: 120px;
+        width: 90px;
     }
 
     .info h2 {
@@ -190,6 +200,10 @@ header {
     body{
         margin: 0px;
     }
+
+    .recuadro{
+        margin: 0px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -202,6 +216,14 @@ header {
         
         border-radius: 1%;
         
+    }
+
+    .recuadro{
+        margin: 0px;
+    }
+
+    body{
+        margin: 0px;
     }
 
     .mapa-container-santa{
@@ -229,7 +251,7 @@ header {
     }
 
     .logo img {
-        width: 120px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
+        width: 90px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
     }
 
     .info h2 {
@@ -270,16 +292,7 @@ header {
 }
 
 /* Recuadro principal */
-.recuadro {
-    display: flex;
-    flex-wrap: wrap;
-    border: 2px solid #db3434;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: #f9f9f9;
-    margin: 0px 110px;
-}
+
 
 /* Estilos para la información */
 .info {
@@ -304,8 +317,3 @@ header {
     box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-    .recuadro {
-        flex-direction: column;
-    }
-}
