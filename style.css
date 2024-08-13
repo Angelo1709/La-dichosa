@@ -1,15 +1,10 @@
 body {
     margin: 0px 150px;
     font-family: Arial, sans-serif;
-    background-image: url();
+    background-image: url(/imagenes/Soja-Desab.jpg);
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */
-}
-
-        .fotosmarca img {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra a las imágenes */
-    border-radius: 8px; /* Opcional: redondea las esquinas de las imágenes */
 }
 
 .linea{
@@ -60,7 +55,7 @@ header {
 }
 
 .informacion h1{
-    margin: 100px 30px;
+    margin: 90px 30px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -78,6 +73,15 @@ div img{
     margin: 15px;
 
     
+}
+
+.fotosmarca img {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra a las imágenes */
+    border-radius: 8px; /* Opcional: redondea las esquinas de las imágenes */
+}
+
+.fondobeige{
+    margin: 30px;
 }
 
 

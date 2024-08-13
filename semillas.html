@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>productos</title>
-    <link rel="stylesheet" href="productos.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="catalogo.css">
+    <script src=""></script>
 </head>
 <body>
 
@@ -22,14 +23,13 @@
     </header>
     <div class="linea"></div>
 
-    <h3 class="parrafo">presione alguno de los siguentes recuadros para poder ver el catalogo completo de productos</h3>
 
-    <div class="agrosemillas">
-      
-        <a href="/semillas.html" style="text-decoration: none;"><button class="semillas"><p style="color: black;">Semillas</p></button></a>
-        <a href="/agroquimicos.html"><button class="agroquimicos"><p>agroquimicos</p></button></a>
-
-    </div>
+    
+    <div class="input"><input type="text" id="buscador" placeholder="Buscar productos..." onkeyup="filtrarCatalogo()"></div>
+    <h1>Catálogo de Semillas</h1>
+    <div id="catalogo"></div>
+    
+    <script src="catalosemillas.js"></script>
     
 </body>
 </html>
