@@ -1,0 +1,10 @@
+:root{
+    --fondo: url(/imagenes/Soja-Desab.jpg);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
