@@ -2,8 +2,8 @@
 
 const agroquimicos = [
     {
-        nombre: "Fertilizante A",
-        descripcion: "Un fertilizante ideal para cultivos de maíz.",
+        nombre: "RAMEX ELITE",
+        descripcion: "2 4 D - Herbicida .",
         precio: "$100",
         imagen: "ruta/imagen-fertilizante-a.jpg"
     },

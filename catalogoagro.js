@@ -2,24 +2,31 @@
 
 const productos = [
     {
-        nombre: "Fertilizante A",
-        descripcion: "Un fertilizante ideal para cultivos de maíz.",
-        marca:"marca c",
-        imagen: "ruta/imagen-fertilizante-a.jpg"
+        nombre: "RAMEX ELITE",
+        descripcion: "2 4 D - Herbicida",
+        marca:"Summit Agro",
+        imagen: "imagenes/ramex-elite.png"
     
     },
     {
-        nombre: "Semilla B",
-        descripcion: "Semillas de alta calidad para soja.",
-        marca:"marca b",
-        imagen: "ruta/imagen-semilla-b.jpg"
+        nombre: "VOLERIS",
+        descripcion: "2 4 D.- Herbicida",
+        marca:"Syngenta",
+        imagen: "imagenes/voleris.png"
         
     },
     {
-        nombre: "Herbicida C",
-        descripcion: "Controla eficazmente las malas hierbas.",
-        marca:"marca a",
-        imagen: "ruta/imagen-herbicida-c.jpg"
+        nombre: "Shennco Max",
+        descripcion: "2 4 D - Herbicida",
+        marca:"ruralco",
+        imagen: "Imagenes/ruralco.png"
+    
+    },
+    {
+        nombre: "Actellic 50 EC",
+        descripcion: "Insecticida",
+        marca:"rizobacter",
+        imagen: "Imagenes/actellic-50.webp"
     
     }
 ];

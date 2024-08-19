@@ -72,7 +72,7 @@ h2{
 body {
     margin: 0px 150px;
     font-family: Arial, sans-serif;
-    background-image: url(/imagenes/Soja-Desab.jpg);
+    
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */
@@ -125,7 +125,7 @@ header {
 .recuadro {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid #db3434;
+    
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
