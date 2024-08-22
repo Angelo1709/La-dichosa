@@ -4,10 +4,17 @@
 
 }
 
+.menu button{
+    display: none;
+}
+
+.Home{
+    margin-right: 10px;
+}
+
 body {
-    margin: 0px 150px;
-    font-family: Arial, sans-serif;
-    
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */
@@ -64,7 +71,7 @@ footer {
 
 .informacion h1{
     margin: 90px 0px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 200px;
     background-image: url(/imagenes/title-image-field-crops.jpg);
     image-rendering: crisp-edges; /* Mejora la nitidez de la imagen */
@@ -102,8 +109,8 @@ div img{
 
 /* Media Queries para pantallas más pequeñas */
 @media (max-width: 768px) {
-
-
+   
+   
     .informacion h1 {
         
         font-size: 24px; /* Reduce el tamaño del texto en pantallas más pequeñas */
@@ -132,6 +139,11 @@ div img{
         width: 100px; /* Ajusta el tamaño de las imágenes en pantallas muy pequeñas */
         height: 100px;
     }
+    .menu ul{
+        display: none;
+    }
+
+
 
    
 }

@@ -2,7 +2,7 @@
 
 const productos = [
     {
-        nombre: "RAMEX ELITE",
+        nombre: "Ramex Elite",
         descripcion: "2 4 D - Herbicida",
         marca:"Summit Agro",
         imagen: "imagenes/ramex-elite.png"
@@ -18,19 +18,114 @@ const productos = [
     {
         nombre: "Shennco Max",
         descripcion: "2 4 D - Herbicida",
-        marca:"ruralco",
+        marca:"Ruralco",
         imagen: "Imagenes/ruralco.png"
     
     },
     {
         nombre: "Actellic 50 EC",
         descripcion: "Insecticida",
-        marca:"rizobacter",
-        imagen: "Imagenes/actellic-50.webp"
+        marca:"Rizobacter",
+        imagen: "Imagenes/actellic-50.png"
     
+    },
+    {
+        nombre: "Adirel In pack",
+        descripcion: "Fertilizante",
+        marca:"Ruralco",
+        imagen: "Imagenes/adirel.png"
+    
+    },
+    {
+        nombre: "Amicor",
+        descripcion: "Insecticida",
+        marca:"Summit Agro",
+        imagen: "Imagenes/amicor.png"
+    
+    },
+    {
+        nombre: "AmistarXtra",
+        descripcion: "Fungicida",
+        marca:"Syngenta",
+        imagen: "Imagenes/amistar_xtra.png"
+    
+    },
+    {
+        nombre: "Apofis Elite",
+        descripcion: "2 4 D - Herbicida",
+        marca:"Syngenta",
+        imagen: "Imagenes/apofis.png"
+    
+    },
+    {
+        nombre: "Apron Maxx RFC",
+        descripcion: "Protección de Cultivos",
+        marca:"Syngenta",
+        imagen: "Imagenes/apron.png"
+    
+    },
+    {
+        nombre: "Artea",
+        descripcion: "Fungicida",
+        marca:"Syngenta",
+        imagen: "Imagenes/artea.png"
+    
+    },
+    {
+        nombre: "Athena (Bifentrin)",
+        descripcion: "Insecticida",
+        marca:"*",
+        imagen: "Imagenes/athena.png"
+    },
+    {
+        nombre: "Axial plus",
+        descripcion: "herbicida para trigo y cebada",
+        marca:"Syngenta",
+        imagen: "Imagenes/Axial.png"
+    },
+    {
+        nombre: "Banvel",
+        descripcion: "Herbicida. Puede ser usado solo o mezcla con otros herbicidas sobre diferentes cultivos",
+        marca:"Syngenta",
+        imagen: "Imagenes/Banvel.png"
+    },
+   
+    {    nombre: "Bifentrin 25 Sigma",
+        descripcion: "Insecticida",
+        marca:"*",
+        imagen: "Imagenes/bifentrin.png"
+
+
+    },
+    {    nombre: "Biotrac",
+        descripcion: "Fertilizante",
+        marca:"Yara",
+        imagen: "Imagenes/biotrack.jpg"
+
+
+    },
+    {
+        nombre: "Boral Sulfentrazone",
+        descripcion: "Herbicida",
+        marca:"Fmc",
+        imagen: "Imagenes/boral-sulfentrazone.jpg"
+
+    },
+    {
+        
+            nombre: "Borja PACK",
+            descripcion: "Herbicida selectivo preemergente para el cultivo de Maíz",
+            marca:"Syngenta",
+            imagen: "Imagenes/borjapack.jpg"
+    
+        
     }
+
+    
+    
 ];
 
+const consultar = ""
 
 // Función para mostrar los productos en el catálogo
 function mostrarCatalogo(productosFiltrados = productos) {
@@ -63,6 +158,15 @@ function mostrarCatalogo(productosFiltrados = productos) {
         marca.className = 'marca';
         marca.textContent = producto.marca;
         productoDiv.appendChild(marca);
+
+        //añadir consulta
+        const boton = document.createElement('button')
+        boton.className = 'boton'
+        boton.textContent = 'consular precio'
+        productoDiv.appendChild(boton)
+        boton.addEventListener('click', function() {
+            window.location.href = '/contactanos.html'; // Reemplaza con la URL a la que quieras dirigir
+        });
 
         // Añadir el contenedor del producto al catálogo
         catalogoDiv.appendChild(productoDiv);

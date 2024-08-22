@@ -70,8 +70,8 @@ h2{
 /*copiado header*/
 
 body {
-    margin: 0px 150px;
-    font-family: Arial, sans-serif;
+    margin: 0px;
+   
     
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -89,7 +89,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 16px;
+  
     
     color: rgb(0, 0, 0);
 }
@@ -133,6 +133,9 @@ header {
     margin: 0px 110px;
 }
 
+.Home{
+    margin-right: 10px;
+}
 
 
 

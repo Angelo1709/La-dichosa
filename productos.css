@@ -1,32 +1,13 @@
 
 
-.agrosemillas{
 
-display: flex;
-justify-content: center;
-
-}
-
-.agrosemillas div a{
-    margin: 10px;
-    height: 20%;
-    width: 20%;
-    background-color: black;
-}
-
-h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 20px;
-}
 
 /*copiado header*/
 
+
 body {
-    margin: 0px 150px;
-    font-family: Arial, sans-serif;
+    margin: 0px;
+    
   
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -44,7 +25,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 16px;
+    margin: 0px;
+    background-color: antiquewhite;
     
     color: rgb(0, 0, 0);
 }
@@ -116,17 +98,137 @@ footer {
     color: #777;
 }
 
+
+
+
+
+
+
+
+a.consultar-cat{
+   
+    padding: 10px;
+    background-color: rgba(255, 187, 0, 0.681);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.container {
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: beige;
+    transform: translateX(-100vw); /* Comienza fuera de la pantalla, en el costado izquierdo */
+    animation: slideInFromLeft 1s ease-out forwards; /* Aplica la animación */
+}
+
+@keyframes slideInFromLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Se desplaza a su posición original */
+    }
+}
+
+
+.texto {
+    max-width: 50%;
+    margin: 50px;
+}
+
+.texto h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.text p {
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.image {
+    max-width: 50%;
+    width: 1300px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container-2{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: beige;
+    transform: translateX(+100vw); /* Comienza fuera de la pantalla, en el costado izquierdo */
+    animation: slideInFromLeft 1s ease-out forwards; /* Aplica la animación */ 
+    
+}
+
+.text-2{
+    max-width: 50%;
+    margin-left: 50px;
+}
+
+.text-2 h1{
+    font-size: 62px;
+}
+
+.image-2 {
+    position: relative;
+  }
+
+
+  .boton-superpuesto {
+    position: absolute;
+    top: 20%; /* Ajusta según la posición que desees */
+    left: 15%; /* Ajusta según la posición que desees */
+    background-color: rgb(245, 245, 220, 0.6); /* Color del botón */
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-superpuesto:hover {
+    background-color: rgba(255, 187, 0, 0.681); /* Cambio de color al hacer hover */
+  }
+
+
+  .boton-semillas {
+    position: absolute;
+    top: 70%; /* Ajusta según la posición que desees */
+    left: 70%; /* Ajusta según la posición que desees */
+    background-color: rgb(245, 245, 220, 0.6); /* Color del botón */
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .boton-semillas:hover {
+    background-color: rgba(255, 187, 0, 0.681); /* Cambio de color al hacer hover */
+  }
+  
+
+
+
+
+
+
 @media (max-width: 768px) {
 
-    .agrosemillas button{
-
-        height: 150px;
-        width: 150px;
-        margin: 20px;
-        margin-top: 40px;
-        border-radius: 10%;
-        cursor: pointer;
-    }
+  
 
     header{
 
@@ -136,7 +238,7 @@ footer {
     color: rgb(0, 0, 0);
     }
 
-   
+    
 
     .menu ul li {
         margin-bottom: 10px;
@@ -154,21 +256,86 @@ footer {
         font-size: 14px;
     }
 
-    .mapa-container iframe,
-    .mapa-container-santa iframe {
-        height: 250px;
-    }
+   
 
     body{
         margin: 0px;
+    }
+
+    .texto {
+        margin: 0px;
+        
+        margin-left: 10px;
+    }
+
+    .texto h1{
+        font-size: 28px;
+        margin-top: 0px;
+    }
+
+    .texto p{
+        font-size: 10px;
+    }
+    
+    .consultar-cat{
+        margin: 0px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .container{
+        padding: 0px;
+        margin: 25px 0px;
+    }
+
+    .container img{
+        max-width: 200%;
+        margin-top: 5px;
+    }  
+
+    .texto a{
+        padding: 5px;
+    }
+    
+    .container-2 img{
+        margin-top: 5px;
+        max-width: 100%;
+        
+    }
+
+    .container-2{
+        padding: 0px;
+    }
+
+    .container-2 h1{
+        font-size: 28px;
+        margin: 0px;
+    }
+
+    .container-2 a{
+        padding: 5px;
+        font-size: 10px;
+       
+    }
+
+    .boton-superpuesto{
+        left: 5%;
+        top: 10%;
+    }
+
+    .text-2 h1{
+        margin: 10px;
+    }
+
+    .text-2{
+       
+        margin-left: 0px;
     }
 }
 
 @media (max-width: 480px) {
     
-    .sucursales h3{
-        margin: 0px;
-    }
+   
     
     .menu ul {
         
@@ -183,5 +350,25 @@ footer {
         width: 90px; /* Ajusta el tamaño del logo en pantallas más pequeñas */
     }
 
+    .text{
+        margin-left: 0px;
+    }
+
+    
+
     
 }
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+

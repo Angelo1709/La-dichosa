@@ -1,6 +1,4 @@
-body{
-    background-color: #f4f4f4;
-}
+
 
 h1 {
     text-align: center;
@@ -12,20 +10,29 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
 }
+
+
 
 .producto {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 15px;
     width: 200px;
+    transition: transform 0.3s ease; 
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto:hover {
+    transform: scale(1.1); 
 }
 
 .producto img {
     max-width: 100%;
     height: auto;
+   
 }
 
 .producto h2 {
@@ -66,10 +73,15 @@ h1 {
 
 
 
+
 /*copiado header*/
 
+.Home{
+    margin-right: 10px;
+}
+
 body {
-    margin: 0px 150px;
+    margin: 0px;
     font-family: Arial, sans-serif;
     background-image: url();
     background-size: cover; /* Hace que la imagen cubra toda la pantalla */
@@ -92,6 +104,48 @@ body {
 
 
 @media (max-width: 768px) {
+
+    body{
+        margin: 0px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    
+    #catalogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .producto {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 5px;
+        width: 100px;
+        
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .producto img {
+        max-width: 100%;
+        height: auto;
+       
+    }
+    
+    .producto h2 {
+        font-size: 14px;
+        color: #333;
+    }
+    
+    .producto p {
+        font-size: 10px;
+        color: #666;
+    }
 
         
 }

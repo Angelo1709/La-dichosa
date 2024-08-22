@@ -1,5 +1,9 @@
 
     /*copiado header*/
+
+    .Home{
+        margin-right: 10px;
+    }
     
    
     .linea{
@@ -12,14 +16,15 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 16px;
+        
 
         
         color: rgb(0, 0, 0);
+        background-color: rgb(180 28 34);
     }
     
     .logo img {
-        width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+        width: 120px; /* Ajusta el tamaño del logo según tus necesidades */
         height: auto;
         margin: 0px;
     }
@@ -55,7 +60,10 @@
     }
     
     @media (max-width: 768px) {
- 
+        
+        .menu ul{
+            display: flex;
+        }
     
         header{
     
@@ -69,6 +77,13 @@
     
         .menu ul li {
             margin-bottom: 10px;
+        }
+
+        .menu ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 10px;
+            margin: 5px;
         }
     
         .logo img {
@@ -85,6 +100,10 @@
     
         body{
             margin: 0px;
+        }
+
+        footer{
+            font-size: 10px;
         }
     }
     
