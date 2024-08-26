@@ -250,6 +250,7 @@ a.consultar-cat{
 
     .texto-responsive h1{
         text-align: center;
+        margin-top: 10%;
     }
 
     .container-2{
@@ -322,11 +323,12 @@ a.consultar-cat{
 
     .container{
         padding: 100px;
-        margin: 25px 0px;
+        margin: 0px;
         display: flex;
         flex-wrap: wrap;
        
-        background-image: url();
+        background-image: url(/imagenes/campo.jpg);
+        
         background-position: 75%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -394,6 +396,10 @@ a.consultar-cat{
        
         margin-left: 0px;
     }
+
+    .boton-semillas{
+        top: 80%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -414,6 +420,10 @@ a.consultar-cat{
     }
 
     .text{
+        margin-left: 0px;
+    }
+
+    .texto{
         margin-left: 0px;
     }
 
