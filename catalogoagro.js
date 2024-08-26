@@ -162,7 +162,7 @@ function mostrarCatalogo(productosFiltrados = productos) {
         //añadir consulta
         const boton = document.createElement('button')
         boton.className = 'boton'
-        boton.textContent = 'consular precio'
+        boton.textContent = 'Consular precio'
         productoDiv.appendChild(boton)
         boton.addEventListener('click', function() {
             window.location.href = '/contactanos.html'; // Reemplaza con la URL a la que quieras dirigir

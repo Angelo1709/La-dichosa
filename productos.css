@@ -102,13 +102,15 @@ footer {
 
 
 
-
+a.consultar-cat:hover{
+    background-color: rgba(255, 187, 0, 0.681)
+}
 
 
 a.consultar-cat{
-   
+    
     padding: 10px;
-    background-color: rgba(255, 187, 0, 0.681);
+    background-color: rgba(241, 214, 127, 0.681);
     border-radius: 5px;
     text-decoration: none;
     color: black;
@@ -137,17 +139,23 @@ a.consultar-cat{
 .texto {
     max-width: 50%;
     margin: 50px;
+    margin-left: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto h1 {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 1.2;
+    text-align: center;
 }
 
 .text p {
     font-size: 20px;
     margin-top: 10px;
     letter-spacing: 1px;
+
 }
 
 .image {
@@ -180,6 +188,7 @@ a.consultar-cat{
 
 .text-2 h1{
     font-size: 62px;
+    text-align: center;
 }
 
 .image-2 {
@@ -201,7 +210,7 @@ a.consultar-cat{
   }
   
   .boton-superpuesto:hover {
-    background-color: rgba(255, 187, 0, 0.681); /* Cambio de color al hacer hover */
+    background-color: rgba(241, 214, 127, 0.681); /* Cambio de color al hacer hover */
   }
 
 
@@ -218,13 +227,14 @@ a.consultar-cat{
     transition: background-color 0.3s ease;
   }
   .boton-semillas:hover {
-    background-color: rgba(255, 187, 0, 0.681); /* Cambio de color al hacer hover */
+    background-color: rgba(241, 214, 127, 0.681); /* Cambio de color al hacer hover */
   }
 
   .texto-responsive{
     display: none;
   }
-  
+
+ 
 
 
 
@@ -301,6 +311,7 @@ a.consultar-cat{
         font-size: 10px;
         margin: 0px;
         text-align: center;
+        display: none;
     }
     
     .consultar-cat{
@@ -340,11 +351,14 @@ a.consultar-cat{
     .container-2 img{
         margin-top: 5px;
         max-width: 100%;
-        
+      
     }
 
     .container-2{
         padding: 0px;
+        transform: translateX(0vw); /* Comienza fuera de la pantalla, en el costado izquierdo */
+        animation: slideInFromLeft none; /* Aplica la animación */
+        
     }
 
     .container-2 h1{
@@ -355,13 +369,21 @@ a.consultar-cat{
 
     .container-2 a{
         padding: 5px;
-        font-size: 10px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
        
     }
 
     .boton-superpuesto{
         left: 5%;
         top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
     }
 
     .text-2 h1{

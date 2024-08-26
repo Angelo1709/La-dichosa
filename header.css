@@ -1,6 +1,10 @@
 
     /*copiado header*/
 
+    .header-producto{
+        margin-right: 10px;
+    }
+
     .Home{
         margin-right: 10px;
     }
@@ -26,7 +30,8 @@
     .logo img {
         width: 120px; /* Ajusta el tamaño del logo según tus necesidades */
         height: auto;
-        margin: 0px;
+      
+        margin: 5px 1px 0px 10px;
     }
     
     .menu ul {
