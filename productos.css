@@ -293,7 +293,7 @@ a.consultar-cat{
         margin: 0px;
         display: flex;
         max-width: 1000px;
-        margin-left: 10px;
+        margin-left: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: centers;
@@ -302,7 +302,7 @@ a.consultar-cat{
     }
 
     .texto h1{
-        font-size: 34px;
+        font-size: 36px;
         margin-top: 5px;
         text-align: center;
 
@@ -347,6 +347,7 @@ a.consultar-cat{
         padding: 5px;
         text-align: center;
         margin: 10px;
+        font-size: 12px;
         
     }
     
@@ -371,11 +372,11 @@ a.consultar-cat{
 
     .container-2 a{
         padding: 5px;
-       
+        background-color: (241, 214, 127, 0.681);
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 14px;
+        font-size: 18px;
        
     }
 
@@ -423,9 +424,6 @@ a.consultar-cat{
         margin-left: 0px;
     }
 
-    .texto{
-        margin-left: 0px;
-    }
 
     
 

@@ -23,6 +23,11 @@ h2{
     
 }
 
+.info{
+    font-size: large;
+}
+
+
 .info p{
     text-align: left;
     justify-content: center;
@@ -62,6 +67,7 @@ h2{
 
 .sucursales h3{
     margin: 4%;
+    font-size: larger;
 }
 
 
@@ -128,7 +134,7 @@ header {
     
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     background-color: #f9f9f9;
     margin: 0px 110px;
 }
@@ -138,12 +144,14 @@ header {
 }
 
 .redes-sociales img{
-    height: 40px;
+    height: 50px;
     margin-top: 2%;
     width: auto;
 }
 
-
+#ubicacion-exacta{
+    margin-top: 20px;
+}
 
 
 /* Media Queries para hacer la página responsive */
@@ -172,7 +180,8 @@ header {
     }
 
     h3{
-        margin: 0px;
+        margin: 0px 0px 15px 0px;
+
     }
 
     header{
@@ -193,12 +202,14 @@ header {
         width: 90px;
     }
 
-    .info h2 {
-        font-size: 20px;
-    }
-
+   
     .info p {
         font-size: 14px;
+        
+    }
+
+    #ubicacion-exacta{
+        margin-top: 30px;
     }
 
     .mapa-container iframe,
@@ -213,6 +224,19 @@ header {
     .recuadro{
         margin: 0px;
     }
+
+    
+.redes-sociales img{
+    height: 40px;
+    margin-top: 2%;
+    width: auto;
+}
+
+.info h3{
+    
+}
+
+
 }
 
 @media (max-width: 480px) {
